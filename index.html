@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <div class="card">
+      <button class="restart btn">Restart</button>
+
+      <span class="suffleImage"
+        ><img src="dice-1.png" alt="" class="imgs"
+      /></span>
+
+      <button class="Suffle btn">Shuffle</button>
+      <button class="save btn">Save</button>
+
+      <div class="firstPlayer cart">
+        <div class="foverlay hidden">
+          <span class="fwin hidden">Winner</span>
+        </div>
+        <div class="firsttotalScoreDisplay">
+          <span class="topfit">Total score</span>
+          <h1 class="ftotalScore">0</h1>
+        </div>
+        <div class="firstcurrentScoreDisplay">
+          <span class="topfit">Current sum</span>
+          <h1 class="fcurrentScore">0</h1>
+        </div>
+      </div>
+      <div class="secondPlayer cart">
+        <div class="soverlay hidden">
+          <span class="swin hidden">Winner</span>
+        </div>
+        <div class="secondtotalScoreDisplay">
+          <span class="topfit">Total score</span>
+          <h1 class="stotalscore">0</h1>
+        </div>
+        <div class="secondcurrentScoreDisplay">
+          <span class="topfit">Current sum</span>
+          <h1 class="scurrentscore">0</h1>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
